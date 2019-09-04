@@ -7,6 +7,7 @@ import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faGooglePlus, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import {NavLink} from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
     '@global': {
@@ -38,23 +39,24 @@ const useStyles = makeStyles(theme => ({
         },
     },
     greenBox: {
-        backgroundColor: '#96f2d7',
+        //background: 'linear-gradient(to right top, rgb(255, 128, 8), #dee2e6)',
+        //backgroundColor: '#ff922b',
         position: 'absolute',
         top: '0',
         left: '0',
-        width: '50%',
+        width: '100%',
         height: '100%',
         zIndex: '-99',
     },
-    redBox: {
-        backgroundColor: '#91a7ff',
-        position: 'absolute',
-        top: '0',
-        right: '0',
-        width: '50%',
-        height: '100%',
-        zIndex: '-99',
-    },
+    // redBox: {
+    //     backgroundColor: '#dee2e6',
+    //     position: 'absolute',
+    //     top: '0',
+    //     right: '0',
+    //     width: '50%',
+    //     height: '100%',
+    //     zIndex: '-99',
+    // },
     button: {
         marginRight: theme.spacing(1),
         marginBottom: theme.spacing(1),
@@ -71,6 +73,9 @@ const useStyles = makeStyles(theme => ({
     loginHeading: {
         marginBottom: theme.spacing(1),
         color: '#212529',
+    },
+    navLink: {
+        textDecoration: 'none',
     },
 }));
 
@@ -104,12 +109,24 @@ const LoginPage = () => {
                             margin="normal"
                         /><br/>
 
-                        <Button variant="contained" color="primary" className={classes.button}>
-                            로그인
-                        </Button>
-                        <Button variant="contained" color="secondary" href="/sign-up" className={classes.button}>
-                            회원가입
-                        </Button>
+                        <NavLink to="/home" className={classes.navLink}>
+                            <Button
+                                variant="contained"
+                                color="primary"
+                                className={classes.button}
+                            >
+                                로그인
+                            </Button>
+                        </NavLink>
+                        <NavLink to="/home" className={classes.navLink}>
+                            <Button
+                                variant="contained"
+                                color="secondary"
+                                className={classes.button}
+                            >
+                                회원가입
+                            </Button>
+                        </NavLink>
                     </form>
 
                     <Button variant="contained" color="secondary" className={classes.button}>
