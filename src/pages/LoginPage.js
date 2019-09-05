@@ -118,7 +118,7 @@ const LoginPage = () => {
                                 로그인
                             </Button>
                         </NavLink>
-                        <NavLink to="/home" className={classes.navLink}>
+                        <NavLink to="/sign-up" className={classes.navLink}>
                             <Button
                                 variant="contained"
                                 color="secondary"

@@ -18,6 +18,7 @@ import koLocale from "date-fns/locale/ko";
 import InputLabel from "@material-ui/core/InputLabel";
 import Select from "@material-ui/core/Select";
 import MenuItem from "@material-ui/core/MenuItem";
+import {NavLink} from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
     '@global': {
@@ -86,6 +87,9 @@ const useStyles = makeStyles(theme => ({
     },
     signUpHeading: {
         color: '#212529',
+    },
+    navLink: {
+        textDecoration: 'none',
     },
 }));
 
@@ -189,9 +193,11 @@ const SignUpPage = () => {
                             </Select>
                         </FormControl> <br/>
 
-                        <Button variant="contained" color="secondary" className={classes.button}>
-                            회원가입
-                        </Button>
+                        <NavLink to="/" className={classes.navLink}>
+                            <Button variant="contained" color="secondary" className={classes.button}>
+                                회원가입
+                            </Button>
+                        </NavLink>
                     </form>
                 </div>
             </Container>

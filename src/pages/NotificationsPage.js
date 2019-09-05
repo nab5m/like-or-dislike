@@ -2,11 +2,7 @@ import React from 'react';
 import DefaultAppBar from "../components/navigations/DefaultAppBar";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import BottomNavigation from "../components/navigations/BottomNavigation";
-import ListOwnerSwitch from "../components/home-page/ListOwnerSwitch";
 import TopNavigation from "../components/navigations/TopNavigation";
-import RealTimeSearchRank from "../components/home-page/RealTimeSearchRank";
-import BookmarkList from "../components/home-page/BookmarkList";
-import Polls from "../components/home-page/Polls";
 
 const useStyles = makeStyles((theme) => ({
     '@global': {
@@ -30,14 +26,10 @@ const HomePage = () => {
     return (
         <div className={classes.container}>
             <DefaultAppBar />
-            <TopNavigation tabValue={0} />
+            <TopNavigation tabValue={5} />
 
             <div className={classes.contents}>
-                <ListOwnerSwitch />
-                <RealTimeSearchRank/>
-                <BookmarkList/>
-                <Polls/>
-                <Polls/>
+                준비중...
             </div>
 
             <BottomNavigation/>

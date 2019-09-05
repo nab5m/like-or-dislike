@@ -8,6 +8,7 @@ import InputBase from '@material-ui/core/InputBase';
 import SearchIcon from '@material-ui/icons/Search';
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import {Typography} from "@material-ui/core";
+import {NavLink} from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     appBar: {
@@ -37,6 +38,11 @@ const useStyles = makeStyles((theme) => ({
         lineHeight: '36px',
         paddingLeft: '3px',
     },
+    navLink: {
+        textDecoration: 'none',
+        color: '#fff',
+        height: '24px',
+    },
 }));
 
 const DefaultAppBar = () => {
@@ -45,14 +51,17 @@ const DefaultAppBar = () => {
     return (
         <AppBar position="static" className={classes.appBar}>
             <Toolbar>
-                <IconButton
-                    className={classes.iconButton}
-                    edge="start"
-                    color="inherit"
-                    aria-label="open drawer"
-                >
-                    <HomeIcon />
-                </IconButton>
+
+                    <IconButton
+                        className={classes.iconButton}
+                        edge="start"
+                        color="inherit"
+                        aria-label="open drawer"
+                    >
+                        <NavLink to="/home" className={classes.navLink}>
+                            <HomeIcon />
+                        </NavLink>
+                    </IconButton>
 
                 {/* SearchBox */}
                 <div className={classes.searchBox}>

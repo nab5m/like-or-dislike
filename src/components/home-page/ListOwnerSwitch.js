@@ -5,7 +5,7 @@ import Typography from "@material-ui/core/Typography";
 
 const ListOwnerSwitch = () => {
     return (
-        <Typography component="div" style={{marginRight: '10px'}}>
+        <Typography component="div" style={{marginRight: '-10px'}}>
             <Grid component="label" container alignItems="center" justify="flex-end">
                 <Grid item>전체</Grid>
                 <Grid item>

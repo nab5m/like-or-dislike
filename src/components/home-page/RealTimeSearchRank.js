@@ -53,14 +53,17 @@ const useStyles = makeStyles((theme) => ({
         color: '#fd7e14',
         border: '1px solid #fd7e14',
         borderRadius: '10px',
-    }
+    },
+    panelRoot: {
+        margin: '0 0 !important',
+    },
 }));
 
 const RealTimeSearchRank = () => {
     const classes = useStyles();
 
     return (
-        <ExpansionPanel className={`${classes.rankBox}`}>
+        <ExpansionPanel className={`${classes.rankBox}`} classes={{expanded: classes.panelRoot}}>
             <ExpansionPanelSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel1a-content"
