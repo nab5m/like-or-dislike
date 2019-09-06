@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f5b90d7-3773-480b-af25-1112460d478b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/FriendsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/NotificationsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ProfilePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SettingsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/TimeLinePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home-page/CardAfterOneClick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home-page/CardBeforeOneClick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home-page/CardDetailModal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home-page/ListOwnerSwitch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home-page/ListOwnerSwitch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home-page/RealTimeSearchRank.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home-page/RealTimeSearchRank.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigations/DefaultAppBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigations/DefaultAppBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home-page/Poll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home-page/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home-page/Polls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home-page/Cards.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigations/TopNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigations/TopNavigation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SignUpPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUpPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -43,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/HomePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="437">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -52,13 +48,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/ProfilePage.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/home-page/Cards.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="644">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/home-page/Card.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1058">
+              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#5270#5603#0" />
+                <element signature="e#5665#6006#0" />
+                <element signature="e#1995#3497#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/home-page/CardDetailModal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="44" column="44" lean-forward="true" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#639#1166#0" />
               </folding>
             </state>
           </provider>
@@ -78,6 +102,8 @@
       <find>coffee</find>
       <find>@date</find>
       <find>@material-ui/icons</find>
+      <find>classes.icon</find>
+      <find>classes.cardAction</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,9 +139,7 @@
         <option value="$PROJECT_DIR$/src/pages/LoginPage.js" />
         <option value="$PROJECT_DIR$/src/pages/SignUpPage.js" />
         <option value="$PROJECT_DIR$/src/components/home-page/ListOwnerSwitch.js" />
-        <option value="$PROJECT_DIR$/src/pages/HomePage.js" />
         <option value="$PROJECT_DIR$/src/components/App.js" />
-        <option value="$PROJECT_DIR$/src/components/navigations/TopNavigation.js" />
         <option value="$PROJECT_DIR$/src/pages/ProfilePage.js" />
         <option value="$PROJECT_DIR$/src/pages/FriendsPage.js" />
         <option value="$PROJECT_DIR$/src/pages/TimeLinePage.js" />
@@ -123,6 +147,12 @@
         <option value="$PROJECT_DIR$/src/pages/SettingsPage.js" />
         <option value="$PROJECT_DIR$/src/components/navigations/DefaultAppBar.js" />
         <option value="$PROJECT_DIR$/src/components/home-page/RealTimeSearchRank.js" />
+        <option value="$PROJECT_DIR$/src/components/navigations/TopNavigation.js" />
+        <option value="$PROJECT_DIR$/src/pages/HomePage.js" />
+        <option value="$PROJECT_DIR$/src/components/home-page/CardBeforeOneClick.js" />
+        <option value="$PROJECT_DIR$/src/components/home-page/CardAfterOneClick.js" />
+        <option value="$PROJECT_DIR$/src/components/home-page/Card.js" />
+        <option value="$PROJECT_DIR$/src/components/home-page/CardDetailModal.js" />
       </list>
     </option>
   </component>
@@ -255,7 +285,7 @@
       <workItem from="1567125783629" duration="8922000" />
       <workItem from="1567213615181" duration="378000" />
       <workItem from="1567318651835" duration="51753000" />
-      <workItem from="1567590554019" duration="17573000" />
+      <workItem from="1567590554019" duration="22916000" />
     </task>
     <task id="LOCAL-00001" summary="Login/SignUp layout">
       <created>1567134927248</created>
@@ -271,11 +301,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567605145306</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="set the frame for outbound routes from HomePage&#10;&#10;there were two options to set the routes&#10;1. using nested routes in HomePage&#10;2. using Linked tabs in TopNavigation&#10;&#10;I adopted the latter. I thought it can be be a importable change in this project.">
+      <created>1567670305563</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567670305563</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86787000" />
+    <option name="totallyTimeSpent" value="92130000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -290,7 +327,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24762908" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24762908" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -304,7 +341,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3275488" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3275488" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32922733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -357,7 +394,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Login/SignUp layout" />
     <MESSAGE value="HomePage Layout&#10;&#10;add REDEME, too long term in commit cycle." />
-    <option name="LAST_COMMIT_MESSAGE" value="HomePage Layout&#10;&#10;add REDEME, too long term in commit cycle." />
+    <MESSAGE value="set the frame for outbound routes from HomePage&#10;&#10;there were two options to set the routes&#10;1. using nested routes in HomePage&#10;2. using Linked tabs in TopNavigation&#10;&#10;I adopted the latter. I thought it can be be a importable change in this project." />
+    <option name="LAST_COMMIT_MESSAGE" value="set the frame for outbound routes from HomePage&#10;&#10;there were two options to set the routes&#10;1. using nested routes in HomePage&#10;2. using Linked tabs in TopNavigation&#10;&#10;I adopted the latter. I thought it can be be a importable change in this project." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
@@ -425,16 +463,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/home-page/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home-page/Polls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -462,27 +490,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home-page/Poll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/home-page/ListOwnerSwitch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/navigations/TopNavigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -560,10 +571,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/ProfilePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/navigations/TopNavigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#1198#1245#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
@@ -572,20 +604,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/HomePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="437">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/ProfilePage.js">
+    <entry file="file://$PROJECT_DIR$/src/components/home-page/Cards.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="644">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home-page/CardBeforeOneClick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home-page/CardAfterOneClick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home-page/Card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#5270#5603#0" />
+            <element signature="e#5665#6006#0" />
+            <element signature="e#1995#3497#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home-page/CardDetailModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="44" column="44" lean-forward="true" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#639#1166#0" />
           </folding>
         </state>
       </provider>

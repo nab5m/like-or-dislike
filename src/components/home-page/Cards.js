@@ -4,7 +4,7 @@ import makeStyles from "@material-ui/core/styles/makeStyles";
 import StarIcon from '@material-ui/icons/Star';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 import Container from "@material-ui/core/Container";
-import Poll from "./Poll";
+import Card from "./Card";
 import IconButton from "@material-ui/core/IconButton";
 
 const useStyles = makeStyles((theme) => ({
@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const Polls = () => {
+const Cards = () => {
     const classes = useStyles();
     const [bookmark, setBookmark] = useState(false);
 
@@ -60,11 +60,11 @@ const Polls = () => {
                 }
             </Typography>
             <Container>
-                <Poll />
-                <Poll last={true} />
+                <Card />
+                <Card last={true} />
             </Container>
         </div>
     );
 };
 
-export default Polls;
+export default Cards;

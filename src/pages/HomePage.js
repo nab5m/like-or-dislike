@@ -6,7 +6,7 @@ import ListOwnerSwitch from "../components/home-page/ListOwnerSwitch";
 import TopNavigation from "../components/navigations/TopNavigation";
 import RealTimeSearchRank from "../components/home-page/RealTimeSearchRank";
 import BookmarkList from "../components/home-page/BookmarkList";
-import Polls from "../components/home-page/Polls";
+import Cards from "../components/home-page/Cards";
 
 const useStyles = makeStyles((theme) => ({
     '@global': {
@@ -36,8 +36,8 @@ const HomePage = () => {
                 <ListOwnerSwitch />
                 <RealTimeSearchRank/>
                 <BookmarkList/>
-                <Polls/>
-                <Polls/>
+                <Cards/>
+                <Cards/>
             </div>
 
             <BottomNavigation/>
