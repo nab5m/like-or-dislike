@@ -3,6 +3,9 @@ import Modal from "@material-ui/core/Modal";
 import Backdrop from "@material-ui/core/Backdrop";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import { useSpring, animated } from 'react-spring';
+import CardGallery from "./CardGallery";
+import CardDescription from "./CardDescription";
+import CardComments from "./CardComments";
 
 const useStyles = makeStyles(theme => ({
     modal: {
@@ -11,9 +14,13 @@ const useStyles = makeStyles(theme => ({
         justifyContent: 'center',
     },
     paper: {
+        boxSizing: 'border-box',
+        width: '90vw',
+        height: '80vh',
+        overflowY: 'scroll',
         backgroundColor: theme.palette.background.paper,
         //border: '2px solid #000',
-        padding: theme.spacing(2, 4, 3),
+        padding: theme.spacing(1, 2, 3), // 위, 옆, 아래
     },
 }));
 
@@ -56,13 +63,15 @@ const CardDetailModal = ({open, handleClose}) => {
             closeAfterTransition
             BackdropComponent={Backdrop}
             BackdropProps={{
-                timeout: 500,
+                //timeout: 300,
             }}
         >
             <Fade in={open}>
                 <div className={classes.paper}>
-                    <h2 id="spring-modal-title">Spring modal</h2>
-                    <p id="spring-modal-description">react-spring animates me.</p>
+                    <h2 id="spring-modal-title">고양이</h2>
+                    <CardGallery/>
+                    <CardDescription/>
+                    <CardComments/>
                 </div>
             </Fade>
         </Modal>

@@ -5,12 +5,12 @@ import CardMedia from "@material-ui/core/CardMedia";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import CardBeforeOneClick from "./CardBeforeOneClick";
 import CardAfterOneClick from "./CardAfterOneClick";
-import CardDetailModal from "./CardDetailModal";
+import CardDetailModal from "./card-modal/CardDetailModal";
 
 const useStyles = makeStyles((theme) => ({
     pollContainer: {
         display: 'flex',
-        justifyContent: 'space-between',
+        justifyContent: 'space-evenly',
         alignItems: 'center',
         padding: '1em 0',
         borderBottom: '1px solid #dee2e6'
