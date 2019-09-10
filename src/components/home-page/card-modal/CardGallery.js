@@ -42,7 +42,7 @@ const useStyles = makeStyles(theme => ({
 
 const CardGallery = () => {
     const classes = useStyles();
-    const [state, setState] = useState({
+    const [state] = useState({
         page: 1,
         data: [
             {

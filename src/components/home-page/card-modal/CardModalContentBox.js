@@ -6,6 +6,9 @@ import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 
 const useStyles = makeStyles(theme => ({
+    container: {
+        marginBottom: '16px',
+    },
     header: {
         display: 'flex',
         alignContent: 'center',
@@ -46,7 +49,7 @@ const CardModalContentBox = ({icon, title, children}) => {
     }
 
     return (
-        <div>
+        <div className={classes.container}>
             <div className={classes.header}>
                 <div className={classes.titleBox}>
                     { icon } {title}
