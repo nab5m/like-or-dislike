@@ -16,7 +16,12 @@
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
-    }	    
+    },
+    {
+      "src": "og_image.png",
+      "type": "image/png",
+      "sizes": "191x100"
+    }
   ],
   "start_url": ".",
   "display": "standalone",
